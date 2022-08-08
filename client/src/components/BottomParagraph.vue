@@ -68,7 +68,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .bottom_paragraph-wrapper {
   display: flex;
   flex-flow: column wrap;

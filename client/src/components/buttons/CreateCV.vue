@@ -4,7 +4,7 @@
   <div class="wrapper-create-cv">
     <div class="main-content__header top-header">
       <div class="main-content__item">
-        <div class="logo"></div>
+        <router-link to="/"><div class="logo"></div></router-link>
         <div class="navi-link">
           <a class="navi-link__item" href="#">Работодателям</a>
         </div>
@@ -177,6 +177,7 @@ h1 {
   background-image: url('./src/assets/logo_min.svg');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .navi-link {
