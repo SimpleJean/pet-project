@@ -73,7 +73,7 @@ export default {
   display: flex;
   flex-flow: column wrap;
   /* justify-content: center; */
-  align-items: center;
+  /* align-items: center; */
   width: 1280px;
   /* padding: 0 20px; */
   margin: 0 auto;
@@ -163,7 +163,7 @@ export default {
 .toggle-button {
   display: flex;
   justify-content: flex-start;
-  width: 1250px;
+  width: 140px;
   color: #3c9df2;
   cursor: pointer;
   text-decoration: underline;
@@ -171,6 +171,7 @@ export default {
   text-decoration-thickness: 1px;
   text-decoration-style: dashed;
   margin-bottom: 15px;
+  padding: 0 15px;
 }
 
 @media (max-width: 1280px) {

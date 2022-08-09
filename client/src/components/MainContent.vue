@@ -309,6 +309,7 @@ input::placeholder {
   cursor: pointer;
   text-underline-offset: 3px;
   text-decoration: underline;
+  width: 140px;
 }
 
 @media (max-width: 1280px) {
