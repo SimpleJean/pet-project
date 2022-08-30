@@ -7,6 +7,11 @@ const routes = [
   { path: '/', component: MainApp },
   { path: '/cv', component: CreateCV },
   { path: '/login', component: Login },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('../components/NotFound.vue'),
+  },
 ];
 
 const router = createRouter({

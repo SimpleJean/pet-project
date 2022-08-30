@@ -142,7 +142,7 @@
 </template>
 
 <script></script>
-<style>
+<style scoped>
 .column-wrapper__container--center {
   display: flex;
   flex-direction: column;

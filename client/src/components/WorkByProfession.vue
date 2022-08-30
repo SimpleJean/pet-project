@@ -73,7 +73,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 @font-face {
   font-family: 'Proxima Nova Condensed Regular';
   font-style: normal;

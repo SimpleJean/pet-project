@@ -5,7 +5,9 @@
   <div class="main">
     <div class="main-content__header">
       <div class="main-content__item">
-        <div class="logo"></div>
+        <div class="logo">
+          <router-link to="/"></router-link>
+        </div>
         <div class="navi-link">
           <a class="navi-link__item" href="#">Работодателям</a>
         </div>
@@ -307,6 +309,7 @@ input::placeholder {
   cursor: pointer;
   text-underline-offset: 3px;
   text-decoration: underline;
+  width: 140px;
 }
 
 @media (max-width: 1280px) {
@@ -392,6 +395,7 @@ input::placeholder {
   background-image: url('./src/assets/logo_min.svg');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .navi-link {
