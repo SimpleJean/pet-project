@@ -26,6 +26,13 @@
   margin: 0 auto;
 }
 
+@media (max-width: 1320px) {
+  .notebook {
+    width: 100vw;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 1280px) {
   .notebook {
     width: 100vw;
@@ -35,7 +42,7 @@
 
 @media (max-width: 768px) {
   .notebook {
-    width: 768px;
+    /* width: 768px; */
     margin: 0 auto;
   }
 }

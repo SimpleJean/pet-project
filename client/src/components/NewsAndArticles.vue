@@ -82,7 +82,7 @@
           </ul>
         </div>
       </div>
-      <hr class="vertical-line" />
+      <hr class="vertical-line delete-line__768" />
       <div class="content-wrapper__item">
         <div><h3 class="block-banner__header">Работа по профессиям</h3></div>
         <div>
@@ -270,6 +270,12 @@ export default {};
   }
 }
 
+@media (max-width: 768px) {
+  .delete-line__768 {
+    display: none;
+  }
+}
+
 @media (min-width: 1281px) {
   .add-line__1280 {
     display: none;
@@ -289,6 +295,12 @@ export default {};
 }
 
 @media (max-width: 1280px) {
+  .vertical-line {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
   .vertical-line {
     margin: 0;
   }

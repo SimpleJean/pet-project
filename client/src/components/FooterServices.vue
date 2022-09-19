@@ -22,7 +22,7 @@
   justify-content: center;
   background-color: #edeff0;
   color: rgb(0, 0, 0);
-  padding: 45px 0 35px 0;
+  padding: 45px 0 25px 0;
   color: #303233;
   font-family: Arial, sans-serif;
   box-sizing: border-box;
@@ -65,9 +65,7 @@
 @media (max-width: 768px) {
   .footer-wrapper__768 {
     display: flex;
-    width: 74vw;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    width: 80vw;
   }
 }
 
@@ -87,18 +85,13 @@
 
 @media (max-width: 768px) {
   .footer-wrapper__item {
-     padding: 0px;
+    padding: 0px;
   }
 }
 
 .footer-wrapper__item:first-child {
   margin-right: 85px;
 }
-
-
-
-
-
 
 .link-footer-top {
   line-height: 1.5;
