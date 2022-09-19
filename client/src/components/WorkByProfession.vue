@@ -110,10 +110,10 @@ export default {};
   flex-direction: row;
   justify-content: space-between;
   color: #303233;
-  width: 900px;
+  width: 100%;
   height: 100%;
   margin-top: 16px;
-
+  flex-wrap: wrap;
   
 }
 
@@ -142,13 +142,14 @@ export default {};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 900px;
+  width: 72%;
   padding: 0 15px;
 }
 
 @media (max-width: 768px) {
   .block-wrapper__item {
     width: 610px;
+    padding: 0 15px;
   }
 }
 
@@ -236,6 +237,7 @@ export default {};
 @media (max-width: 1280px) {
   .vertical-line {
     margin: 0;
+    display: none;
   }
 }
 @media (max-width: 768px) {

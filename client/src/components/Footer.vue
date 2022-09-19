@@ -1,5 +1,5 @@
 <template>
-<!--   <div class="wrapper">
+  <!--   <div class="wrapper">
     <div class="footer-wrapper footer-wrapper__768">
       <div class="footer-wrapper__item">
         <p class="link-footer-top">Продвижение резюме</p>
@@ -32,7 +32,7 @@
             <li class="footer-content__item">Хочу у вас работать</li>
           </ul>
         </div>
-        <hr class="horizontal-footer__768" />
+        <!-- <hr class="horizontal-footer__768" color="#494b4d" /> -->
         <div class="footer-content">
           <ul class="unordered-list-style bottom-gap">
             <li class="footer-content__item">Помощь</li>
@@ -76,7 +76,7 @@
         <div class="footer-bottom__top-gap">
           <p>© 2022 Группа компаний HeadHunter</p>
           <p>
-            Сегодня на сайте 36 265 вакансий, 3 515 260 резюме, 73 695 компании
+            Сегодня на сайте 38969 вакансии, 3912359 резюме, 78899 компаний и за неделю 2850242 приглашений
           </p>
         </div>
       </div>
@@ -114,21 +114,22 @@
 .footer-wrapper {
   display: flex;
   width: 1280px;
-
+  
   height: 100%;
 }
 
 @media (max-width: 1280px) {
   .footer-wrapper {
-    width: 75vw;
+    width: 100%;
     padding: 0;
+    flex-wrap: wrap;
   }
 }
 
 @media (max-width: 768px) {
   .footer-wrapper {
     display: flex;
-    width: 85vw;
+    width: 84vw;
     flex-wrap: wrap-reverse;
   }
 }
@@ -156,7 +157,7 @@
 @media (max-width: 768px) {
   .footer-wrapper__768 {
     display: flex;
-    width: 74vw;
+    width: 80vw;
     flex-direction: row-reverse;
     justify-content: flex-end;
   }
@@ -244,6 +245,11 @@
     height: 50px;
   }
 }
+@media (max-width: 768px) {
+  .footer-logo__1280 {
+    padding-bottom: 140px;
+  }
+}
 
 .footer-content__title {
   color: #fff;
@@ -294,9 +300,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .footer-wrapper__column {
+    width: 100%;
+    align-items: center;
+  }
+}
+
 .footer-social-media {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
@@ -311,7 +325,7 @@
   flex-direction: row;
   margin-top: 25px;
   width: 290px;
-  padding: 0 15px;
+
 }
 
 .media-logo--facebook {
@@ -370,7 +384,7 @@
   flex-direction: row;
   width: 610px;
   padding: 0 15px;
-  margin-top: 25px;
+  margin: 20px 0px;
 }
 
 .app-button-app-store {
@@ -426,7 +440,7 @@
 }
 
 .horizontal-footer {
-  width: 75vw;
+  width: 83vw;
   margin-top: 16px;
 }
 
@@ -441,9 +455,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .footer-bottom {
+    width: 80%;
+  }
+}
+
 .footer-bottom__top-gap {
   margin-top: 25px;
-  padding: 0 15px;
+  
   color: #959799;
 }
 

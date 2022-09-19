@@ -12,7 +12,7 @@
 <style scoped>
 .wrapper {
   display: flex;
-  width: 99vw;
+  width: 100vw;
   justify-content: center;
   background-color: #fff;
 }
@@ -21,26 +21,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1250px;
-  padding: 0 20px;
+  /* width: 89em; */
+  /* padding: 0 20px; */
   height: 40px;
   color: #3c9df2;
+  gap: 75em;
 }
 
 @media (max-width: 1280px) {
   .top {
     justify-content: space-around;
-    width: 1240px;
+    width: 80vw;
     padding: 0;
-    gap: 420px;
+    gap: 50vw;
   }
 }
 @media (max-width: 768px) {
   .top {
     justify-content: space-around;
-    width: 768px;
+    /* width: 768px; */
     padding: 0;
-    gap: 280px;
+    gap: 54vw;
   }
 }
 

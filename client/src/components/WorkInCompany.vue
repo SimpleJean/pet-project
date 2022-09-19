@@ -251,7 +251,7 @@ export default {};
   justify-content: center;
   align-items: center;
   width: 1280px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   margin: 0 auto;
   color: black;
 }
@@ -259,12 +259,13 @@ export default {};
 @media (max-width: 1280px) {
   .wrapper {
     padding: 0px;
+    width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   .wrapper {
-    width: 768px;
+    /* width: 768px; */
     padding: 0px;
   }
 }
@@ -310,6 +311,7 @@ export default {};
   .column-wrapper {
     width: 75vw;
     flex-direction: column;
+    align-items: center;
   }
 }
 
