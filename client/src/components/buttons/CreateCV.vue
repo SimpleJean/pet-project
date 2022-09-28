@@ -82,9 +82,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="signup-wrapper__item">
-          <div><a href="#" class="enter-link">Войти</a></div>
-        </div> -->
         <div class="signup-wrapper__item">
           <div class="free-space"></div>
           <div class="signup-wrapper__item--title">
@@ -130,7 +127,6 @@ h1 {
   width: 1280px;
   margin: 0 auto;
   color: #222324;
-  /* background-color: #303233; */
 }
 .bg-color {
   position: absolute;
@@ -146,7 +142,6 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 65.10416666666667vw;
-  /* min-height: 80px; */
   margin-top: 20px;
 }
 
@@ -249,7 +244,6 @@ h1 {
   color: #ffffff;
   border-radius: 20px;
   background-color: rgba(177, 160, 54, 0);
-
   padding: 0 12px;
   cursor: pointer;
 }
@@ -297,7 +291,6 @@ h1 {
   user-select: none;
   width: 240px;
   padding: 0 7px;
-  /* background-color: #222324; */
 }
 
 .registry-btn {
@@ -322,8 +315,6 @@ h1 {
   display: flex;
   width: 240px;
   font-weight: 400;
-  /* padding-top: 10px; */
-  /* padding-bottom: 0; */
   color: #303233;
   font-family: Arial, sans-serif;
   line-height: 1.43;

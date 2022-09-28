@@ -72,8 +72,6 @@
 }
 
 .title {
-  /*   margin: 0;
-  padding: 0; */
   font-size: 32px;
   line-height: 1.12;
   font-family: ProximaNovaCond, Arial Narrow, Roboto Condensed, Arial,
@@ -89,8 +87,7 @@
 .not-found {
   background: url('../assets/man__min_.png') 50%;
   height: 267px;
-    width: 200px;
-  
+  width: 200px;
 }
 
 .logo {
@@ -107,13 +104,11 @@
   list-style: none;
   margin: 0px;
   padding: 0px;
-  /* margin-bottom: 20px; */
 }
 
 .error-links__item {
   line-height: 1.43;
   font-size: 14px;
-  /* margin-left: 20px; */
   line-height: 26px;
 }
 

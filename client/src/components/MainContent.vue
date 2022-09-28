@@ -67,7 +67,6 @@
       </div>
     </div>
   </div>
-  <!--  </div> -->
 </template>
 
 <style scoped>
@@ -75,9 +74,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 66.66666666666667vw; */
   height: 100%;
-  /* padding: 0 20px; */
   color: rgb(255, 255, 255);
 }
 
@@ -91,7 +88,6 @@
 
 @media (max-width: 768px) {
   .main {
-    /* width: 768px; */
     padding: 0;
     margin: 0;
   }
@@ -108,20 +104,6 @@
   z-index: -100;
   left: 0px;
 }
-
-/* @media (min-width: 1600px) {
-  .bg-main {
-    width: 100vw;
-    position: absolute;
-    background-image: url(./src/assets/bg-applicant.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    height: 614px;
-    z-index: -100;
-    left: 0px;
-  }
-} */
 
 @media (max-width: 768px) {
   .bg-main {
@@ -179,14 +161,11 @@
 
 @media (max-width: 768px) {
   .main-content__footer {
-    /* padding: 0 20px; */
-    /* justify-content: space-around;
-    gap: 20px; */
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 }
-/* mb need delete this selector */
+
 .focus-input {
   width: 100%;
 }
@@ -200,7 +179,6 @@
 
 .main-content__search {
   display: flex;
-
   padding: 0 0px 60px 0px;
   min-height: 239px;
   background: rgba(0, 0, 0, 0);
@@ -282,7 +260,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .input {
-  width: 43vw; /*535px*/
+  width: 43vw;
   height: 48px;
   border: none;
   border-top-left-radius: 4px;
@@ -291,11 +269,6 @@ input[type='search']::-webkit-search-results-decoration {
   padding: 0 10px;
   font-size: 16px;
   color: rgb(0, 0, 0);
-}
-
-@media (max-width: 1280px) {
-  .input {
-  }
 }
 
 @media (max-width: 768px) {
@@ -326,15 +299,6 @@ input::placeholder {
   text-underline-offset: 3px;
   text-decoration: underline;
   width: 140px;
-}
-
-@media (max-width: 1280px) {
-  .find-string {
-  }
-}
-@media (max-width: 768px) {
-  .find-string {
-  }
 }
 
 .find-string:hover {
@@ -511,10 +475,8 @@ input::placeholder {
   color: #ffffff;
   border-radius: 20px;
   background-color: rgba(177, 160, 54, 0);
-  
   padding: 0 12px;
   cursor: pointer;
-  
 }
 
 @media (max-width: 768px) {

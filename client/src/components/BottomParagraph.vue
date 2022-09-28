@@ -72,10 +72,8 @@ export default {
 .bottom_paragraph-wrapper {
   display: flex;
   flex-flow: column wrap;
-  /* justify-content: center; */
   align-items: center;
   width: 1280px;
-  /* padding: 0 20px; */
   margin: 0 auto;
   color: black;
 }
@@ -89,7 +87,6 @@ export default {
 
 @media (max-width: 768px) {
   .bottom_paragraph-wrapper {
-    /* width: 768px; */
     padding: 0px;
   }
 }

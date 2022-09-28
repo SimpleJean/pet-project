@@ -9,7 +9,6 @@
     <MainContent />
     <Dashboard />
     <WorkInCompany />
-    <!-- <JobsOfTheDay /> -->
     <WorkByProfession />
     <NewsAndArticles />
     <BottomParagraph />
@@ -42,7 +41,6 @@
 
 @media (max-width: 768px) {
   .notebook {
-    /* width: 768px; */
     margin: 0 auto;
   }
 }
