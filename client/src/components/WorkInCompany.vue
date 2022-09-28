@@ -138,7 +138,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Оператор колл-центра (Удаленно) </span>
-                <div>от 120 000 до 150 000 KZT</div>
+                <div>от 120 000 до 150 000 KZT</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">Смартер Казахстан, Кордай</a>
@@ -147,7 +147,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Кузнец - штамповщик</span>
-                <div>от 50 000 до 60 000 руб.</div>
+                <div>от 50 000 до 60 000 руб.</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">КАМАЗ, Кордай</a>
@@ -156,7 +156,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Продавец-консультант салона мебели (МС "Сарканд")</span>
-                <div>от 200 000 KZT</div>
+                <div>от 200 000 KZT</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">Торговая компания АЛА, ТМ EuroMebel, Сарканд</a>
@@ -175,7 +175,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Middle 1С Разработчик</span>
-                <div>от 200 000 до 450 000 KZT</div>
+                <div>от 200 000 до 450 000 KZT</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">Ристарт Технологии, Алматы</a>
@@ -185,7 +185,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Продавец-консультант в магазин женской одежды</span>
-                <div>от 150 000 до 250 000 KZT</div>
+                <div>от 150 000 до 250 000 KZT</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">Аймурзаева А.М., Нур-Султан</a>
@@ -195,7 +195,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Товаровед (оператор приемки товаров)</span>
-                <div>от 150 000 до 180 000 KZT</div>
+                <div>от 150 000 до 180 000 KZT</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">MUKAZHAN K.A., Нур-Султан</a>
@@ -205,7 +205,7 @@
             <div class="vacancies-of-the-day__item">
               <a href="#"
                 ><span>Спортивный журналист</span>
-                <div>от 160 000 до 160 000 KZT</div>
+                <div>от 160 000 до 160 000 KZT</div>
               </a>
               <span class="column-list-item__count"
                 ><a href="#">СИА Sports.kz, Караганда</a>
@@ -251,7 +251,6 @@ export default {};
   justify-content: center;
   align-items: center;
   width: 1280px;
-  /* padding: 0 20px; */
   margin: 0 auto;
   color: black;
 }
@@ -265,7 +264,6 @@ export default {};
 
 @media (max-width: 768px) {
   .wrapper {
-    /* width: 768px; */
     padding: 0px;
   }
 }
@@ -416,8 +414,6 @@ export default {};
 .column-wrapper__container--center {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  /* padding: 0 15px; */
 }
 
 @media (max-width: 1280px) {
@@ -457,7 +453,6 @@ export default {};
 @media (max-width: 1280px) {
   .vacancies-of-the-day {
     height: 58vh;
-
   }
 }
 

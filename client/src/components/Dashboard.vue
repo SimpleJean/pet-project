@@ -311,8 +311,6 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  /* width: 100vw; */
-  /* padding: 0 20px; */
   color: #303233;
 
   margin-top: 110px;
@@ -327,7 +325,6 @@ export default {
 
 @media (max-width: 768px) {
   .dashboard {
-    /* width: 768px; */
     padding: 0;
   }
 }
@@ -335,7 +332,6 @@ export default {
 .dashboard-wrapper {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: flex-start; */
   justify-content: center;
   height: 395px;
   padding-top: 10px;
@@ -370,8 +366,6 @@ export default {
   .dashboard-wrapper__item:last-child {
     position: relative;
     left: -160px;
-    /* margin-left: -174px;
-    margin-right: 136px; */
   }
 }
 
@@ -382,8 +376,6 @@ export default {
 }
 
 .dashboard-tiles-item-highlighter {
-  /* background-color: #eb6b6b;
-  opacity: 0.4; */
   width: 10px;
   border-radius: 4px 0 0 4px;
 }

@@ -1,14 +1,4 @@
 <template>
-  <!--   <div class="wrapper">
-    <div class="footer-wrapper footer-wrapper__768">
-      <div class="footer-wrapper__item">
-        <p class="link-footer-top">Продвижение резюме</p>
-      </div>
-      <div class="footer-wrapper__item">
-        <p class="link-footer-top">Хочу у вас работать</p>
-      </div>
-    </div>
-  </div> -->
   <div class="footer">
     <div class="footer-wrapper__column">
       <div class="footer-wrapper">
@@ -87,29 +77,6 @@
 <script></script>
 
 <style scoped>
-/* .wrapper {
-  display: flex;
-  
-  justify-content: center;
-  background-color: #edeff0;
-  color: rgb(0, 0, 0);
-  padding: 45px 0 35px 0;
-  color: #303233;
-  font-family: Arial, sans-serif;
-  box-sizing: border-box;
-} */
-
-/* @media (max-width: 1280px) {
-  .wrapper {
-    width: 100vw;
-  }
-} */
-
-/* @media (max-width: 768px) {
-  .wrapper {
-    width: 100vw;
-  }
-} */
 
 .footer-wrapper {
   display: flex;
@@ -136,7 +103,7 @@
 /* start need to watch for changes */
 @media (max-width: 768px) {
   .horizontal-footer__768 {
-    width: 83vw;
+    width: inherit;
     margin: 0px 0 20px;
   }
 }
@@ -198,12 +165,6 @@
   background: #222324;
   padding: 35px 0;
 }
-
-/* @media (max-width: 1280px) {
-  .footer {
-    width: 960px;
-  }
-} */
 
 .footer-content {
   display: flex;
@@ -315,7 +276,6 @@
 
 @media (max-width: 768px) {
   .footer-social-media {
-    /* width: 100vw; */
     flex-direction: column;
   }
 }
@@ -440,7 +400,7 @@
 }
 
 .horizontal-footer {
-  width: 83vw;
+  width: inherit;
   margin-top: 16px;
 }
 
@@ -467,15 +427,4 @@
   color: #959799;
 }
 
-.link-footer-top {
-  line-height: 1.5;
-  font-size: 16px;
-  color: #3c9df2;
-  cursor: pointer;
-  margin: 0 0 10px 0;
-}
-
-.link-footer-top:hover {
-  color: rgb(252, 96, 96);
-}
 </style>

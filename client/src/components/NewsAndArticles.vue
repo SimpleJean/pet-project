@@ -226,13 +226,11 @@ export default {};
 
 .wrapper-list-item {
   padding: 0;
-  /* width: 100%; */
 }
 .horizontal-line {
   background: #edeff0;
   border: 0;
   height: 1px;
-  /* width: 100vw; */
   margin-top: 25px;
   margin-bottom: 25px;
 }

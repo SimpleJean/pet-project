@@ -147,7 +147,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: 0 15px; */
 }
 
 @media (max-width: 1280px) {

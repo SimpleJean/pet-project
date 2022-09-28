@@ -21,8 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 89em; */
-  /* padding: 0 20px; */
   height: 40px;
   color: #3c9df2;
   gap: 75em;
@@ -39,7 +37,6 @@
 @media (max-width: 768px) {
   .top {
     justify-content: space-around;
-    /* width: 768px; */
     padding: 0;
     gap: 54vw;
   }

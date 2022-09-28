@@ -3,13 +3,9 @@
     <div class="footer-wrapper footer-wrapper__768">
       <div class="footer-wrapper__item">
         <p class="link-footer-top">Продвижение резюме</p>
-        <!-- <p class="footer-top__label">
-          Автоматическое поднятие резюме в&nbsp;результатах поиска
-        </p> -->
       </div>
       <div class="footer-wrapper__item">
         <p class="link-footer-top">Хочу у вас работать</p>
-        <!-- <p class="footer-top__label">Отправьте свое резюме в компанию мечты</p> -->
       </div>
     </div>
   </div>
@@ -43,7 +39,6 @@
 .footer-wrapper {
   display: flex;
   width: 1280px;
-  /* padding: 0 20px; */
   height: 100%;
 }
 
