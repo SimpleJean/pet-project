@@ -5,7 +5,7 @@
   <div class="main">
     <div class="main-content__header">
       <div class="main-content__item">
-        <div class="logo">
+        <div class="logo1">
           <router-link to="/"></router-link>
         </div>
         <div class="navi-link">
