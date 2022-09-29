@@ -171,11 +171,13 @@ export default {
   text-decoration-style: dashed;
   margin-bottom: 15px;
   padding: 0 15px;
+  align-self: flex-start;
 }
 
 @media (max-width: 1280px) {
   .toggle-button {
     width: 73vw;
+    align-self: center;
   }
 }
 /* need to change clickebel area */

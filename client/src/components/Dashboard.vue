@@ -36,8 +36,8 @@ export default {
         'is-hide': false,
       },
       cards: [],
-      //if fetchItemData doest work, it will be stopped mongoose or server. So uncomment mocked data cards
-      /* cards: [
+      //uncomment this part, if you don't see something in the page
+      cards: [
         {
           id: 1,
           title: 'Вакансии дня',
@@ -283,7 +283,7 @@ export default {
           count: 169,
           color: 'rgba(250,219,125,.4)',
         },
-      ], */
+      ],
     };
   },
   methods: {

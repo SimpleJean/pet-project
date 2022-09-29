@@ -22,7 +22,6 @@
             <li class="footer-content__item">Хочу у вас работать</li>
           </ul>
         </div>
-        <!-- <hr class="horizontal-footer__768" color="#494b4d" /> -->
         <div class="footer-content">
           <ul class="unordered-list-style bottom-gap">
             <li class="footer-content__item">Помощь</li>
@@ -44,7 +43,7 @@
           </ul>
         </div>
         <div class="footer-content footer-logo__1280">
-          <div class="footer-logo"></div>
+          <div class="footer-logo1"></div>
         </div>
       </div>
       <div class="footer-social-media">
